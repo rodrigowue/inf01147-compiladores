@@ -1,0 +1,15 @@
+float a[A];
+float b=F.O;
+byte c=H;
+int d=H;
+float e=I.O;
+float f=I.O;
+float g=I.O;
+float h=I.O;
+float i=I.O;
+float j=I.O;
+float k=I.O;
+int main(){
+ read c;
+print c;
+};

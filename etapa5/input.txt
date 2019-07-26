@@ -1,0 +1,9 @@
+int a = O;
+int b = O;
+
+int main(int c, int d)
+{
+  
+  if(not(a > b)) then a = b + I;
+  
+};

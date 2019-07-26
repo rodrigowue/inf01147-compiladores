@@ -1,0 +1,45 @@
+int 8=O;
+byte 1=O;
+int a[H]:O O O;
+float b[IO];
+float x=IO;
+byte v='x';
+byte l=DE;
+byte c=O.H;
+byte anubis=O;
+byte n=O;
+byte main(){
+ a=C;
+x=8+1+H.O;
+print v[H];
+1=H+I/O;
+print "Digite um numero: \n";
+read a;
+loop (1<IO){
+ 1=incn(1(8),x,incn(8,x,a));
+a[H]=incn(8(),x,1);
+b[I]=1+l+H};
+print "Incrementado algumas vezes fica ",a,"\n";
+if (a[8]==E) then  
+print "Parou no meio\n";
+if (a==II+a==IC+a[8]) then  
+print "Var a ficou II ou IC\n";
+if ( not(a+IO)+I< not(incn(a(),H.O,v) or O)) then  
+read c else 
+print anubis;
+;
+;
+;
+{
+ ;
+};
+{
+ ;
+;
+;
+};
+leap;
+};
+float incn(byte x,float n,byte b){
+ return 8[H];
+};

@@ -1,0 +1,348 @@
+AST_LISTDEC
+   AST_VARIAVEL_DEC
+      AST_BYTE
+      a
+      O
+   AST_LISTDEC
+      AST_VARIAVEL_DEC
+         AST_BYTE
+         1
+         O
+      AST_LISTDEC
+         AST_VEC_DEC_INIT
+            AST_INT
+            v
+            IO
+            AST_LISTLITERAIS
+               O
+               AST_LISTLITERAIS
+                  O
+                  AST_LISTLITERAIS
+                     O
+         AST_LISTDEC
+            AST_VEC_DEC
+               AST_INT
+               mat
+               IO
+            AST_LISTDEC
+               AST_VARIAVEL_DEC
+                  AST_FLOAT
+                  f
+                  IO.EE
+               AST_LISTDEC
+                  AST_VARIAVEL_DEC
+                     AST_BYTE
+                     c
+                     'x'
+                  AST_LISTDEC
+                     AST_VARIAVEL_DEC
+                        AST_BYTE
+                        x
+                        DE
+                     AST_LISTDEC
+                        AST_FUNCAO
+                           AST_CABECALHO
+                              AST_BYTE
+                              main
+                           AST_BLOCO
+                              AST_LISTCMD
+                                 AST_ATRIBUICAO
+                                    a
+                                    C
+                                 AST_LISTCMD
+                                    AST_ATRIBUICAO_VEC
+                                       v
+                                       a
+                                       AO
+                                    AST_LISTCMD
+                                       AST_PRINT
+                                          AST_PRINTLIST
+                                             AST_VECTOR
+                                                v
+                                                a
+                                       AST_LISTCMD
+                                          AST_ATRIBUICAO
+                                             a
+                                             b
+                                          AST_LISTCMD
+                                             AST_PRINT
+                                                AST_PRINTLIST
+                                                   "Digite um numero: \n"
+                                             AST_LISTCMD
+                                                AST_READ
+                                                   a
+                                                AST_LISTCMD
+                                                   AST_LOOP
+                                                      AST_LESS
+                                                         1
+                                                         IO
+                                                      AST_BLOCO
+                                                         AST_LISTCMD
+                                                            AST_ATRIBUICAO
+                                                               1
+                                                               AST_CALL_FUNCTION
+                                                                  incn
+                                                                  AST_LISTEXP
+                                                                     AST_VECTOR
+                                                                        1
+                                                                        8
+                                                                     AST_LISTEXP
+                                                                        I
+                                                            AST_LISTCMD
+                                                               AST_ATRIBUICAO
+                                                                  a
+                                                                  AST_CALL_FUNCTION
+                                                                     incn
+                                                                     AST_LISTEXP
+                                                                        a
+                                                                        AST_LISTEXP
+                                                                           I
+                                                               AST_LISTCMD
+                                                   AST_LISTCMD
+                                                      AST_PRINT
+                                                         AST_PRINTLIST
+                                                            "Incrementado algumas vezes fica "
+                                                            AST_PRINTLIST
+                                                               a
+                                                               AST_PRINTLIST
+                                                                  "\n"
+                                                      AST_LISTCMD
+                                                         AST_IF
+                                                            AST_EQUAL
+                                                               a
+                                                               E
+                                                            AST_PRINT
+                                                               AST_PRINTLIST
+                                                                  "Parou no meio\n"
+                                                         AST_LISTCMD
+                                                            AST_IF
+                                                               AST_OR
+                                                                  AST_EQUAL
+                                                                     a
+                                                                     II
+                                                                  AST_EQUAL
+                                                                     a
+                                                                     IC
+                                                               AST_PRINT
+                                                                  AST_PRINTLIST
+                                                                     "Var a ficou II ou IC\n"
+                                                            AST_LISTCMD
+                                                               AST_IF
+                                                                  AST_AND
+                                                                     AST_EQUAL
+                                                                        a
+                                                                        IO
+                                                                     AST_LESS
+                                                                        I
+                                                                        AST_NEG
+                                                                           AST_ASSOCIATIVIDADE
+                                                                              AST_OR
+                                                                                 x
+                                                                                 O
+                                                                  AST_ELSE
+                                                               AST_LISTCMD
+                                                                  AST_LISTCMD
+                                                                     AST_LISTCMD
+                                                                        AST_LISTCMD
+                                                                           AST_BLOCO
+                                                                              AST_LISTCMD
+                                                                                 AST_LISTCMD
+                                                                           AST_LISTCMD
+                                                                              AST_BLOCO
+                                                                                 AST_LISTCMD
+                                                                              AST_LISTCMD
+                                                                                 AST_LEAP
+                                                                                 AST_LISTCMD
+                        AST_LISTDEC
+                           AST_FUNCAO
+                              AST_CABECALHO
+                                 AST_BYTE
+                                 incn
+                                 AST_LISTPARAM
+                                    AST_PARAM
+                                       AST_BYTE
+                                       x
+                                    AST_LISTPARAM
+                                       AST_PARAM
+                                          AST_BYTE
+                                          n
+                              AST_BLOCO
+                                 AST_LISTCMD
+                                    AST_RETURN
+                                       AST_ADD
+                                          x
+                                          n
+DEBUG======================================
+DEBUG-Node Type: 42
+DEBUG-Node Type: 38
+DEBUG-Node Type: 33
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 42
+DEBUG-Node Type: 38
+DEBUG-Node Type: 33
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 42
+DEBUG-Node Type: 41
+DEBUG-Node Type: 34
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 40
+DEBUG-Node Type: 1
+DEBUG-Node Type: 40
+DEBUG-Node Type: 1
+DEBUG-Node Type: 40
+DEBUG-Node Type: 1
+DEBUG-Node Type: 42
+DEBUG-Node Type: 39
+DEBUG-Node Type: 34
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 42
+DEBUG-Node Type: 38
+DEBUG-Node Type: 35
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 42
+DEBUG-Node Type: 38
+DEBUG-Node Type: 33
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 42
+DEBUG-Node Type: 38
+DEBUG-Node Type: 33
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 42
+DEBUG-Node Type: 6
+DEBUG-Node Type: 37
+DEBUG-Node Type: 33
+DEBUG-Node Type: 1
+DEBUG-Node Type: 28
+DEBUG-Node Type: 29
+DEBUG-Node Type: 4
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 29
+DEBUG-Node Type: 5
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 29
+DEBUG-Node Type: 30
+DEBUG-Node Type: 31
+DEBUG-Node Type: 2
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 29
+DEBUG-Node Type: 4
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 29
+DEBUG-Node Type: 30
+DEBUG-Node Type: 31
+DEBUG-Node Type: 1
+DEBUG-Node Type: 29
+DEBUG-Node Type: 25
+DEBUG-Node Type: 1
+DEBUG-Node Type: 29
+DEBUG-Node Type: 27
+DEBUG-Node Type: 20
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 28
+DEBUG-Node Type: 29
+DEBUG-Node Type: 4
+DEBUG-Node Type: 1
+DEBUG-Node Type: 8
+DEBUG-Node Type: 1
+DEBUG-Node Type: 7
+DEBUG-Node Type: 2
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 7
+DEBUG-Node Type: 1
+DEBUG-Node Type: 29
+DEBUG-Node Type: 4
+DEBUG-Node Type: 1
+DEBUG-Node Type: 8
+DEBUG-Node Type: 1
+DEBUG-Node Type: 7
+DEBUG-Node Type: 1
+DEBUG-Node Type: 7
+DEBUG-Node Type: 1
+DEBUG-Node Type: 29
+DEBUG-Node Type: 29
+DEBUG-Node Type: 30
+DEBUG-Node Type: 31
+DEBUG-Node Type: 1
+DEBUG-Node Type: 31
+DEBUG-Node Type: 1
+DEBUG-Node Type: 31
+DEBUG-Node Type: 1
+DEBUG-Node Type: 29
+DEBUG-Node Type: 10
+DEBUG-Node Type: 9
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 30
+DEBUG-Node Type: 31
+DEBUG-Node Type: 1
+DEBUG-Node Type: 29
+DEBUG-Node Type: 10
+DEBUG-Node Type: 12
+DEBUG-Node Type: 9
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 9
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 30
+DEBUG-Node Type: 31
+DEBUG-Node Type: 1
+DEBUG-Node Type: 29
+DEBUG-Node Type: 10
+DEBUG-Node Type: 13
+DEBUG-Node Type: 9
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 20
+DEBUG-Node Type: 1
+DEBUG-Node Type: 23
+DEBUG-Node Type: 22
+DEBUG-Node Type: 12
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
+DEBUG-Node Type: 29
+DEBUG-Node Type: 29
+DEBUG-Node Type: 29
+DEBUG-Node Type: 29
+DEBUG-Node Type: 28
+DEBUG-Node Type: 29
+DEBUG-Node Type: 29
+DEBUG-Node Type: 29
+DEBUG-Node Type: 28
+DEBUG-Node Type: 29
+DEBUG-Node Type: 29
+DEBUG-Node Type: 26
+DEBUG-Node Type: 29
+DEBUG-Node Type: 42
+DEBUG-Node Type: 6
+DEBUG-Node Type: 37
+DEBUG-Node Type: 33
+DEBUG-Node Type: 1
+DEBUG-Node Type: 36
+DEBUG-Node Type: 32
+DEBUG-Node Type: 33
+DEBUG-Node Type: 1
+DEBUG-Node Type: 36
+DEBUG-Node Type: 32
+DEBUG-Node Type: 33
+DEBUG-Node Type: 1
+DEBUG-Node Type: 28
+DEBUG-Node Type: 29
+DEBUG-Node Type: 24
+DEBUG-Node Type: 16
+DEBUG-Node Type: 1
+DEBUG-Node Type: 1
